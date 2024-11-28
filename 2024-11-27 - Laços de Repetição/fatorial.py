@@ -5,3 +5,21 @@
 
    Exemplo: 5! = 5 * 4 * 3 * 2 * 1 = 120
 '''
+import sys
+
+n = int(input('Digite um número inteiro: '))
+
+if n < 0:
+   sys.exit('O número deve ser positivo...')
+
+if n == 0 or n == 1:
+   sys.exit(f'{n}! = 1')
+
+fatorial = 1
+contador = n
+
+while controle > 1:
+   fatorial *= contador
+   contador -= 1
+
+print(f'{fatorial}! = {fatorial}')
