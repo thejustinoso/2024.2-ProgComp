@@ -6,3 +6,18 @@
 
    O valor 0 não deve entrar na média.
 '''
+
+intSoma = 0
+intQtd  = 0
+
+while True:
+   n = int(input('Digite um número inteiro: '))
+
+   if n == 0: break
+
+   intSoma += n
+   intQtd  += 1
+
+print(f'A soma dos números digitados é {intSoma}')
+print(f'A média aritmética dos números digitados é {intSoma/intQtd}')
+
