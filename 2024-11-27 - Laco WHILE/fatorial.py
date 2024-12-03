@@ -18,8 +18,8 @@ if n == 0 or n == 1:
 fatorial = 1
 contador = n
 
-while controle > 1:
+while contador > 1:
    fatorial *= contador
    contador -= 1
 
-print(f'{fatorial}! = {fatorial}')
+print(f'{n}! = {fatorial}')
